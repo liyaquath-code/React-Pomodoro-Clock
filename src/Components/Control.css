@@ -1,0 +1,19 @@
+.control-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #d9dde2;
+  margin: 15px;
+}
+
+.control-container div {
+  display: flex;
+}
+
+#session-length,
+#break-length {
+  margin: 7px;
+  font-size: 18px;
+}
